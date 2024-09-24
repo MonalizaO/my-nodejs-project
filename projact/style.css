@@ -1,0 +1,60 @@
+body{
+    width: 750px;
+    height: 750px;
+}
+
+.header{
+    background-color: bisque;
+    width: 100%;
+    height: 100px;
+    margin: 0;
+    /*margin: 50%;
+    margin-top: 10%;*/
+}
+
+.sidebar{
+    background-color: brown;
+    display: inline-block;
+    margin: 0;
+    width: 150px;
+    height: 400px;
+    
+   /* margin: 50%;*/
+}
+
+.sidebar > div{
+    text-align: center;
+    color: white;
+
+}
+
+.content > .banner{
+    background-color: aquamarine;
+    float: left;
+    left: 150px;
+    top: 0px;
+    width: 500px;
+    height: 70px;
+}
+
+.content > .new{
+    background-color: black;
+    width: 250px;
+    height: 335px;
+    top: 12px;
+    left: 150px;
+    float: left;
+}
+
+.content > .list{
+    background-color: aqua;
+    float: right;
+}
+
+.footer{
+    background-color: bisque;
+    clear: both;
+    width: 750px;
+    height: 70px;
+
+}

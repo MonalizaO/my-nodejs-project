@@ -1,0 +1,194 @@
+html, body{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+}
+
+body{
+    position: relative;
+}
+
+/* Content head */
+.head-contrian {
+    position: relative;
+    height: 8%;
+    background-color: black;
+    padding: 2.3%;
+}
+
+.head-contrian img {
+    position: absolute;
+    height: 80%;
+    width: 8%;
+    padding-left: 7%;
+    top: 5%;
+}
+
+.head-contrian h1{
+    position: relative;
+    font-size: 250%;
+    width: 40%;
+    left: 20%;
+    margin: 0%;
+    color: white;
+}
+
+/* Content Body */
+
+.content-container{
+    position: relative;
+    width: 100%;
+    height: 70%;
+}
+.container-top,.container-center,.container-bottom{
+    position: relative;
+    width: 100%;
+    top: 1%;
+}
+
+/* Card Left */
+.card-1{
+    position: absolute;
+    width: 20%;
+    margin-top: 0.5%;
+    text-align: center;
+    left: 7.5%;
+}
+
+.card-4 {
+    position: absolute;
+    width: 20%;
+    margin-top: 12.5%;
+    margin-left: 1.5%;
+    text-align: center;
+    left: 6%;
+    
+}
+.card-7{
+    position: absolute;
+    width: 20%;
+    margin-left: 2.5%;
+    margin-top: 25.5%;
+    text-align: center;
+    left: 5%;
+}
+
+/* Card Center */
+
+.card-9{
+    position: absolute;
+    width: 25%;
+    margin-top: 0.5%;
+    left: 30%;
+    text-align: center;
+    left: 35%;
+}
+.card-6{
+    position: absolute;
+    width: 25%;
+    margin-top: 16%;
+    left: 29%;
+    text-align: center;
+    left: 35%;
+}
+
+.card-8{
+    position: absolute;
+    width: 25%;
+    margin-top: 24%;
+    left: 30%;
+    text-align: center;
+    left: 35%;
+}
+
+/* Card Right */
+.card-3{
+    position: absolute;
+    width: 25%;
+    margin-top: 0.5%;
+    text-align: center;
+    left: 65%;
+}
+.card-2{
+    position: absolute;
+    width: 25%;
+    margin-top: 15%;
+    text-align: center;
+    left: 65%;
+}
+.card-5{
+    position: absolute;
+    width: 25%;
+    margin-top: 23%;
+    text-align: center;
+    left: 65%;
+}
+.card-img{
+    width: 22%;
+}
+
+
+/* Content */
+.content1-img{
+    position: absolute;
+    width: 17%;
+    top: 2%;
+    right: 10%;
+
+}
+
+.content2{
+    position: relative;
+    width: 100%;
+    height: 70%;
+}
+
+.content2-img{
+    position: absolute;
+    width: 30%;
+    top: 2%;
+    left: 65%;
+
+}
+
+.content2-p{
+    width: 50%;
+    top: 10%;
+    margin-left: 5%;
+    font-size: larger;
+}
+
+ .content2 h1{
+    top: 20%;
+    width: 30%;
+    padding-left: 20%;
+}
+
+.content2 a{
+    position: absolute;
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+    left: 45%;
+    text-decoration: none;
+}
+
+
+/* Footer */
+.footer {
+    position: absolute;
+    width: 100%;
+    height: 8%;
+    bottom: 0;
+    left: 0;
+    background: #000000;
+    
+}
+
+.footer p {
+    font-size: 28px;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+}
